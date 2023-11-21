@@ -55,6 +55,7 @@ h1:hover:first-letter, .skills-section h2:hover:first-letter{
     display: grid;
     grid-template-rows: auto;
     text-align: center;
+    color:rgb(43, 226, 122)
 }
 #name h1{
     margin-bottom: 0;
@@ -83,7 +84,7 @@ h1:hover:first-letter, .skills-section h2:hover:first-letter{
 }
 
 #brand{
-    border: dashed 2px rgb(154, 181, 223);
+    border: dashed 2px rgb(213, 100, 20);
     padding:15px;
     letter-spacing: 0.5px;
     line-height: 4.5vh;
