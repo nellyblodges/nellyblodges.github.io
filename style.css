@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&family=Press+Start+2P&family=Smooch+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+ *{
+    cursor:url('./images/pizza-color.png'),auto;
+ } 
+.welcome-section{
+    border: 10px dashed pink;
+    height: 18vh;
+}
+#get-joke{
+    display: block;
+    margin:10px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: rgb(154, 181, 223);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 15px;
+}
+#get-joke:hover{
+    filter: brightness(120%);
+}
+#get-joke:active{
+    transform: scale(0.97);
+}
+.joke{
+    padding:10px;
+    margin:10px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3vh;
+    color: rgb(142, 81, 35);
+    background-color: white;
+}
+.big-joke-area {
+    height: 23vh;
+}
+.big-joke-font {
+    font-size: 2.5vh;
+}
+h1{
+    font-family: 'Monoton', sans-serif;
+    letter-spacing: 15px;
+    font-size:50px;
+}
+h1:hover:first-letter, .skills-section h2:hover:first-letter{
+    color:blue;
+} 
+
+#name{
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+}
+#name h1{
+    margin-bottom: 0;
+}
+#name p, #bio, #skills-one, #skills-two{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+#skills-one, #skills-two{
+    line-height: 4vh;
+}
+#skills-two{
+    text-align: right;
+}
+#skills-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: dashed 2px rgb(154, 181, 223);
+    padding:15px;
+}
+.skills-section h2{
+    text-align: center;
+    font-family: 'Monoton', sans-serif;
+    letter-spacing: 6px;
+    font-size: 4.5vh;
+}
+
+#brand{
+    border: dashed 2px rgb(154, 181, 223);
+    padding:15px;
+    letter-spacing: 0.5px;
+    line-height: 4.5vh;
+    font-size: 3vh;
+}
+#site-links, #project-links{
+    text-align: center;
+}
+.circle{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    padding:5px;
+    margin:10px;
+    background-color:rgb(238, 185, 180, 0.8);
+}
+#kelly{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 5px auto 15px auto;
+}
+
+.circle:hover{
+    background-color:rgb(236, 162, 155);
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Monoton', sans-serif;
+    font-size: 25px;
+}
+.top{
+    height: 100px;
+    width:100px;
+}
+.top a{
+    font-size: 15px;
+}
+.circle a:hover{
+    color:blue;
+}
+#bio p{
+    text-align: center;
+    font-size: 2.5vh;
+    border: dashed 2px rgb(207, 128, 18);
+    padding:15px;
+}
+#proj-divs{
+    display: grid;
+    grid-template-rows: auto;
+    padding:15px;
+    margin:0;
+}
+
+#pour-pair-div, #recipe-div, #restaurant-div, #trashure-div {
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(238, 187, 182);
+    font-size: 20vh;
+    margin: 10px auto;
+}
+#pour-pair-div h3, #recipe-div h3, #restaurant-div h3, #trashure-div h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    padding:0 5px;
+    text-align: center;
+}
+#recipe-div h4{
+    font-family: 'Montserrat', sans-serif;
+    padding:0 5px;
+    text-align: center;
+    font-size: 2vh;
+}
+#pour-pair-div a, #recipe-div a, #restaurant-div a, #trashure-div a{
+    font-size: 6vh;
+    font-weight: 800;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+#pour-pair-div a:hover, #recipe-div a:hover, #restaurant-div a:hover, #trashure-div a:hover{
+    color:blue;
+}    
+#pour-pair-div img, #recipe-div img, #restaurant-div img, #trashure-div img{
+    height: 40vh;
+    width:auto;
+    display: block;
+    margin: 8px auto 0 auto;
+    border: solid 1px rgb(8, 7, 7);
+}
+#img-hover:hover{
+    border: solid 5px blue;
+}
+#resume{
+    border: solid 1px black;
+    margin: 0 auto;
+    padding: 5px 25px;
+    letter-spacing: 0.5px;
+}
+.resume-head{
+    text-align: center;
+}
+.resume-head h1{
+    font-size: 5vh;
+}
+.color-links{
+    color:blue;
+    font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+#resume div{
+    padding-top:15px;
+    border-bottom: solid 1px black;
+}
+
+#wine-gh-links h3, #recipe-gh-links h3, #rest-gh-links h3, #trash-gh-links h3{
+    color:rgb(2, 174, 221);
+    font-size: 2.5vh;
+    margin-bottom: 0;
+}
+#wine-gh-links li, #recipe-gh-links li, #rest-gh-links li, #trash-gh-links li{
+    list-style-type: none;
+}
+#wine-gh-links a, #recipe-gh-links a, #rest-gh-links a, #trash-gh-links a{
+    font-size:2vh;
+    font-family: tahoma;
+    color:rgb(255, 94, 0);
+    list-style-type: none;
+}
+#wine-gh-links a:hover, #recipe-gh-links a:hover, #rest-gh-links a:hover, #trash-gh-links a:hover{
+    color:white;
+}
+footer a, footer ul{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    color:blue;
+    list-style-type: none;
+}
+
+@media(max-width: 400px){
+    body{
+        width: fit-content;
+    }
+    footer a, footer ul{
+        display: grid;
+        grid-template-rows: auto;
+        padding: 10px;
+    }
+}
+
+
+
