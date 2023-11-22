@@ -103,12 +103,12 @@ h1{
     margin:10px;
     background-color:rgb(238, 185, 180, 0.8);
 }
-#nate, #kelly_nate, #miles, #mature_nate{
+/* #nate, #kelly_nate, #miles, #mature_nate{
     height: 150px;
     width: 150px;
     border-radius: 50%;
     margin: 5px auto 15px auto;
-}
+} */
 
 .circle:hover{
     background-color:rgb(236, 162, 155);
@@ -181,7 +181,7 @@ a{
 #img-hover:hover{
     border: solid 5px blue;
 }
-#resume{
+/* #resume{
     border: solid 1px black;
     margin: 0 auto;
     padding: 5px 25px;
@@ -192,7 +192,7 @@ a{
 }
 .resume-head h1{
     font-size: 5vh;
-}
+} */
 .color-links{
     color:blue;
     font-size: 3vh;
@@ -203,7 +203,7 @@ a{
     border-bottom: solid 1px black;
 }
 
-#wine-gh-links h3, #recipe-gh-links h3, #rest-gh-links h3, #trash-gh-links h3{
+/* #wine-gh-links h3, #recipe-gh-links h3, #rest-gh-links h3, #trash-gh-links h3{
     color:rgb(2, 174, 221);
     font-size: 2.5vh;
     margin-bottom: 0;
@@ -219,7 +219,7 @@ a{
 }
 #wine-gh-links a:hover, #recipe-gh-links a:hover, #rest-gh-links a:hover, #trash-gh-links a:hover{
     color:white;
-}
+} */
 footer a, footer ul{
     font-family: 'Montserrat', sans-serif;
     display: flex;
