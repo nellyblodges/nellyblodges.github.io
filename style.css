@@ -8,39 +8,34 @@
     cursor:url('./images/pizza-color.png'),auto;
  } 
 .welcome-section{
-    border: 10px dashed pink;
+    border: 10px dashed rgb(221, 115, 28);
     height: 18vh;
 }
-#get-joke{
-    display: block;
-    margin:10px auto;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    background-color: rgb(154, 181, 223);
-    padding: 10px 50px;
-    border: none;
-    border-radius: 15px;
-}
-#get-joke:hover{
-    filter: brightness(120%);
-}
-#get-joke:active{
-    transform: scale(0.97);
-}
-.joke{
-    padding:10px;
-    margin:10px;
+#name{
+    display: grid;
+    grid-template-rows: auto;
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 3vh;
-    color: rgb(142, 81, 35);
-    background-color: white;
 }
-.big-joke-area {
-    height: 23vh;
+#natestock{
+    color:rgb(43, 217, 226);
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
 }
-.big-joke-font {
-    font-size: 2.5vh;
+
+#natetop {
+    display: grid;
+    grid-template-columns: auto;
+    width: fit-content;
+}
+
+#nate1, #nate2, #nate3 {
+    height: 200px;
+    width: auto;
+    margin: 5px auto 15px auto;
+    border-style: groove;
+    border-color: rgb(237, 168, 56);
+    border-width: 3vh;
 }
 h1{
     font-family: 'Monoton', sans-serif;
@@ -51,11 +46,7 @@ h1{
     color:blue;
 }  */
 
-#name{
-    display: grid;
-    grid-template-rows: auto;
-    text-align: center;
-}
+
 #name h1{
     margin-bottom: 0;
 }
@@ -63,9 +54,48 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
-#natestock{
-    color:rgb(43, 226, 122);
+
+#nate4 {
+    display: grid;
+    text-align: center;
+    height: 250px;
+    margin: 5px auto 15px auto;
+    border-style: dashed;
+    border-width: 3vh;
+    border-color: rgb(226, 43, 43);
+    border-radius: 50%;
 }
+#kelly_nate{
+    display: grid;
+    text-align: center;
+    height: 250px;
+    margin: 5px auto 15px auto;
+    border-style: dashed;
+    border-width: 3vh;
+    border-color: rgb(226, 211, 43);
+    border-radius: 50%;
+} 
+#miles{
+    display: grid;
+    text-align: center;
+    height: 250px;
+    margin: 5px auto 15px auto;
+    border-style: dashed;
+    border-width: 3vh;
+    border-color: rgb(80, 226, 43);
+    border-radius: 50%;
+}
+#mature_nate{
+    display: grid;
+    text-align: center;
+    height: 250px;
+    margin: 5px auto 15px auto;
+    border-style: dashed;
+    border-width: 3vh;
+    border-color: rgb(43, 83, 226);
+    border-radius: 50%;
+}
+
 #skills-one, #skills-two{
     line-height: 4vh;
 }
@@ -74,16 +104,39 @@ h1{
 }
 #skills-section{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     border: dashed 2px rgb(154, 181, 223);
     padding:15px;
-}
-.skills-section h2{
     text-align: center;
     font-family: 'Agbalumo', sans-serif;
     letter-spacing: 6px;
     font-size: 4.5vh;
 }
+#map{
+    display: grid;
+    text-align: center;
+    height: 300px;
+    margin: 5px auto 15px auto;
+    border-style: dashed;
+    border-width: 1.5vh;
+    border-color: rgb(192, 43, 226);
+}
+.notes{
+    font-size: 3vh;
+    text-align: left;
+    margin: 15px, 15px;
+}
+
+#notes2 {
+    text-align: center;
+}
+#jefffont{
+    font-size: 2.5vh;
+    text-align: center;
+    color:rgb(226, 43, 214);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 
 #brand{
     border: dashed 2px rgb(213, 100, 20);
@@ -103,20 +156,15 @@ h1{
     margin:10px;
     background-color:rgb(238, 185, 180, 0.8);
 }
-#nate, #kelly_nate, #miles, #mature_nate{
-    height: 150px;
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    margin: 5px auto 15px auto;
-}
+
+
 
 .circle:hover{
     background-color:rgb(236, 162, 155);
 }
 a{
     text-decoration: none;
-    color:white;
+    color:rgb(204, 29, 29);
     font-family: 'Monoton', sans-serif;
     font-size: 25px;
 }
