@@ -47,9 +47,9 @@ h1{
     letter-spacing: 15px;
     font-size:50px;
 }
-h1:hover:first-letter, .skills-section h2:hover:first-letter{
+/* h1:hover:first-letter, .skills-section h2:hover:first-letter{
     color:blue;
-} 
+}  */
 
 #name{
     display: grid;
