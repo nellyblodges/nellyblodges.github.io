@@ -6,6 +6,7 @@
 
  *{
     cursor:url('./images/pizza-color.png'),auto;
+    /* background-image: url("https://i.imgur.com/mvECNIt.png"); */
  } 
 .welcome-section{
     border: 10px dashed rgb(221, 115, 28);
@@ -21,7 +22,9 @@
     display: grid;
     grid-template-columns: auto;
     text-align: center;
+    
 }
+
 
 #natetop {
     display: flex;
@@ -29,6 +32,7 @@
     justify-content: space-around;
     /* width: fit-content; */
     padding: 35px;
+    background-image: url("https://i.imgur.com/mvECNIt.png");
 }
 
 #nate1, #nate2, #nate3 {
@@ -38,6 +42,10 @@
     border-style: groove;
     border-color: rgb(237, 168, 56);
     border-width: 3vh;
+}
+h5 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
 h1{
     font-family: 'Monoton', sans-serif;
@@ -155,16 +163,27 @@ h1{
     border-color: rgb(192, 43, 226);
 }
 .notes{
-    font-size: 3vh;
+    font-size: 2.5vh;
     text-align: left;
     /* margin: 15px, 15px; */
     font-family: 'Montserrat', sans-serif;
+    line-height: 50px;
+    letter-spacing: 1.5vh;
+}
+#notes {
+    font-size: 2.5vh;
+    letter-spacing: 0.5px;
 }
 
 .notes h3 {
     text-align: center;
 }
 
+.dates {
+    font-size: 3vh;
+    text-decoration: underline;
+    color:rgb(8, 21, 159)
+}
 
 /* #notes2 {
     text-align: center;
@@ -231,8 +250,8 @@ a{
 }
 #proj-divs h3 {
     text-align: center;
-    color:rgb(14, 240, 71);
-    font-size: 3.5vh;
+    color:rgb(12, 164, 50);
+    font-size: 4vh;
     padding: 5x;
     font-family: 'Monoton', sans-serif;
     border-style: groove;
@@ -244,7 +263,9 @@ a{
     background-color: rgb(235, 238, 224);
     /* font-size: 20vh; */
     margin: 10px auto;
+    
 }
+
 h4 {
     text-align: center;
     padding: 10px;
@@ -252,6 +273,11 @@ h4 {
     letter-spacing: 3px;
     line-height: 30px;
 }
+/* #pour-pair-div {
+    background-image: url("https://i.imgur.com/qHwiPWC.png");
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+} */
 #jefffont{
     /* font-size: 2.5vh;
     text-align: center; */
@@ -309,7 +335,7 @@ h4 {
     font-size: 5vh;
 } */
 .color-links{
-    color:blue;
+    color:rgb(255, 119, 0);
     font-size: 3vh;
     font-family: 'Montserrat', sans-serif;
 }
@@ -339,7 +365,7 @@ footer a, footer ul{
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: space-around;
-    color:blue;
+    color:rgb(255, 136, 0);
     list-style-type: none;
 }
 
