@@ -123,7 +123,8 @@ h1{
 }
 
 .nates {
-    height: 150px;
+    /* height: 250px; */
+    width: 250px;
     border-width: 0.5vh;
     border-style: solid;
     border-color: rgb(23, 216, 152);
@@ -367,6 +368,7 @@ footer a, footer ul{
     justify-content: space-around;
     color:rgb(255, 136, 0);
     list-style-type: none;
+    background-image: url("https://i.imgur.com/mvECNIt.png");
 }
 
 @media(max-width: 400px){
