@@ -11,6 +11,7 @@
 .welcome-section{
     border: 10px dashed rgb(221, 115, 28);
     height: 18vh;
+    margin: 15px;
 }
 #name{
     display: grid;
